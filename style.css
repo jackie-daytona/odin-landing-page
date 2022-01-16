@@ -1,0 +1,162 @@
+body {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.container {
+    flex:1;
+}
+.header,
+.media,
+.footer {
+    background-color: #123d10;
+    color: #ffffff;
+}
+button {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+/* header and links */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 8px;
+}
+a,
+.hero-secondary,
+.footer {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+.logo {
+    font-size: 24px;
+    color: #eb3ce2;
+}
+
+/* media object */
+.media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    padding: 25px 50px;
+    gap: 8px;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.image img{
+    max-width: 300px;
+    max-height: 300px;
+}
+.hero-main {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 800;
+}
+.continue{
+    border: 0;
+    padding: 10px;
+    border-radius: 15px;
+    color: #ffffff;
+    background-color: #35be47;
+    max-width: 150px;
+}
+
+
+/* cards */
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    padding: 32px;
+}
+.size {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #35be47;
+    padding: 32px;
+    background-color: #E5E7EB;
+}
+.size .pink {
+    color: #eb3ce2;
+}
+.info img {
+    max-width: 250px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+/* quote */
+.quote-container {
+    display: flex;
+    background-color: #E5E7EB;
+}
+.quote {
+   font-size: 36px;
+   font-style: italic; 
+   display: table;
+   text-align: center;
+   margin: 0 auto;
+   padding: 64px;
+}
+.source {
+    font-style: normal;
+    font-size: 20px;
+    text-align: right;
+    font-weight: 600;
+}
+
+/* modal & footer */
+.modal-container {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal {
+    border-radius: 15px;
+    padding: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #35be47;
+    color: #ffffff;
+    gap: 40px;
+}
+.meow {
+    color: #ffffff;
+    background-color: #35be47;  
+    border: 2px solid #ffffff;
+    border-radius: 15px;
+    padding: 10px;
+}
+.left-text {
+    display: flex;
+    flex-direction: column;
+}
+.modal-header {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.footer {
+    text-align: center;
+    padding: 32px;
+}
